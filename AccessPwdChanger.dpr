@@ -89,10 +89,10 @@ begin
   begin
     writeln('MS Access MDW Password Changer');
     if ParamCount < 5 then
-      ErrorMessage('Nedostatek parametrù')
+      ErrorMessage('Nedostatek parametru')
     else
-      ErrorMessage('Pøíliš mnoho parametrù. Uzavøete cesty nebo loginy s mezerami do uvozovek (napø: "c:\Program Files\Databaze\Soubor.mdb")');
-    ErrorMessage('Použití:');
+      ErrorMessage('Prilis mnoho parametru. Uzavrete cesty nebo loginy s mezerami do uvozovek (napr: "c:\Program Files\Databaze\Soubor.mdb")');
+    writeln('Pouziti:');
     writeln(' AccessPwdChanger DB.mdb WorkGroup.mdw Uzivatel StareHeslo NoveHeslo');
     writeln(' AccessPwdChanger DB.mdb WorkGroup.mdw Uzivatel NoveHeslo dbAdmin dbAdminPwd');
   end;
